@@ -292,10 +292,10 @@ public class DateUtilTest {
 	@Test
 	public void testNominalJune() {
 		int rand_day_1_to_31 = 1 + new Random().nextInt(31);
-		DateUtil date = new DateUtil(rand_day_1_to_31, 6, 2024);
-		System.out.println("test June Nominal > " + date);
-		date.increment();
-		System.out.println(date);
+        DateUtil date = new DateUtil(rand_day_1_to_31, 6, 2024);
+        System.out.println("test June Nominal > " + date);
+        date.increment();
+        System.out.println(date);
 	}
 
 	@Test
